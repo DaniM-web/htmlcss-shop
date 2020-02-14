@@ -1,0 +1,40 @@
+body {
+  background-color: lightblue;
+}
+section.container {
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+.container div {
+display: inline-block;
+position: relative;
+}
+.newdisc {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: green;
+}
+.olddisc {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: red;
+}
+button[name="favorite"] {
+  border: 0;
+  background: none;
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  display: none;
+  cursor: pointer;
+}
+.item:hover button {
+  display: block;
+}
+.fav {
+  color: red;
+  font-size: 25px;
+}
